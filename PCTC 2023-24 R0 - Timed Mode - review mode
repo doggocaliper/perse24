@@ -1,1 +1,45 @@
+# Question 1
 
+x = int(input())
+y = int(input())
+z = int(input())
+print(x + (12 * y * z))
+
+# Question 2
+
+x = int(input())
+y = int(input())
+print(x // y)
+
+# Question 3
+
+x = str(input())
+print(x[2:] + x[:2])
+
+# Question 4
+
+pass1 = str(input())
+pass2 = str(input())
+pass3 = str(input())
+
+if (pass1 == pass2) and (pass2 == pass3):
+  print("OK")
+elif (pass1 != pass2) and (pass1 != pass3):
+  print("BOTH MISMATCH")
+elif (pass1 != pass2) and (pass1 == pass3):
+  print("ENTRY 2 MISMATCH")
+else:
+  print("ENTRY 3 MISMATCH")
+
+# Question 5
+
+drink = str(input())
+refill = int(input())
+if drink == "h":
+  print("1")
+elif ((drink == "t") or (drink == "c")) and (refill <= 10):
+  print(refill + 1)
+else:
+  print(11)
+
+# Question 6
